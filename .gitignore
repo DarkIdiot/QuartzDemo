@@ -8,3 +8,4 @@ bin/    diff=astextplain
 lib/    diff=astextplain
 # 忽略 target/ 目录下的所有文件
 target/ diff=astextplain
+/target/
