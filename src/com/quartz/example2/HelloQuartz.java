@@ -12,12 +12,12 @@ import org.slf4j.LoggerFactory;
 /**
  * <b>  </b>
  * <p>
- *     ¹¦ÄÜ:
+ *     åŠŸèƒ½:
  * </p>
- * @×÷Õß  ÕÅÌÎ
- * @´´½¨ÈÕÆÚ 2013-12-24
- * @ÏîÄ¿Ãû³Æ quartzDemo
- * @JAVAÂ·¾¶ com.quartz.example1.HelloQuartz
+ * @ä½œè€…  å¼ æ¶›
+ * @åˆ›å»ºæ—¥æœŸ 2013-12-24
+ * @é¡¹ç›®åç§° quartzDemo
+ * @JAVAè·¯å¾„ com.quartz.example1.HelloQuartz
  */
 public class HelloQuartz implements Job{
 	private static Logger log = LoggerFactory.getLogger(HelloQuartz.class);

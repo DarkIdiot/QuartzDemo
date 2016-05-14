@@ -13,20 +13,20 @@ import org.quartz.impl.triggers.SimpleTriggerImpl;
 /**
  * <b>  </b>
  * <p>
- *     ¹¦ÄÜ:
+ *     åŠŸèƒ½:
  * </p>
- * @×÷Õß  ÕÅÌÎ
- * @´´½¨ÈÕÆÚ 2013-12-24
- * @ÏîÄ¿Ãû³Æ quartzDemo
- * @JAVAÂ·¾¶ com.quartz.test.QueartTest
+ * @ä½œè€…  å¼ æ¶›
+ * @åˆ›å»ºæ—¥æœŸ 2013-12-24
+ * @é¡¹ç›®åç§° quartzDemo
+ * @JAVAè·¯å¾„ com.quartz.test.QueartTest
  */
 public class QueartTest {
 
 	/**
-	 * <b> ¹¦ÄÜ :  </b>
+	 * <b> åŠŸèƒ½ :  </b>
 	 * @param args
-	 * @×÷Õß  ÕÅÌÎ
-	 * @´´½¨ÈÕÆÚ 2013-12-24
+	 * @ä½œè€…  å¼ æ¶›
+	 * @åˆ›å»ºæ—¥æœŸ 2013-12-24
 	 */
 	public static void main(String[] args) {
         try {

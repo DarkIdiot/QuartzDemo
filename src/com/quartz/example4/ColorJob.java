@@ -15,13 +15,13 @@ import org.slf4j.LoggerFactory;
 /**
  * <b> </b>
  * <p>
- * ¹¦ÄÜ:
+ * åŠŸèƒ½:
  * </p>
  * 
- * @×÷Õß ÕÅÌÎ
- * @´´½¨ÈÕÆÚ 2013-12-24
- * @ÏîÄ¿Ãû³Æ quartzDemo
- * @JAVAÂ·¾¶ com.quartz.example1.HelloQuartz
+ * @ä½œè€… å¼ æ¶›
+ * @åˆ›å»ºæ—¥æœŸ 2013-12-24
+ * @é¡¹ç›®åç§° quartzDemo
+ * @JAVAè·¯å¾„ com.quartz.example1.HelloQuartz
  */
 @PersistJobDataAfterExecution
 @DisallowConcurrentExecution
@@ -47,7 +47,7 @@ public class ColorJob implements Job {
 				+ this._counter);
 		count++;
 	    data.put(EXECUTION_COUNT, count);
-	    System.out.println("jobÖĞµÄ¾²Ì¬±äÁ¿£º"+change);
+	    System.out.println("jobä¸­çš„é™æ€å˜é‡ï¼š"+change);
          change++;
 	    this._counter += 1;
 	}

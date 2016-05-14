@@ -4,8 +4,6 @@ import java.util.Date;
 
 import org.quartz.DisallowConcurrentExecution;
 import org.quartz.InterruptableJob;
-import org.quartz.Job;
-import org.quartz.JobDataMap;
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
 import org.quartz.JobKey;
@@ -17,13 +15,13 @@ import org.slf4j.LoggerFactory;
 /**
  * <b> </b>
  * <p>
- * ¹¦ÄÜ:
+ * åŠŸèƒ½:
  * </p>
  * 
- * @×÷Õß ÕÅÌÎ
- * @´´½¨ÈÕÆÚ 2013-12-24
- * @ÏîÄ¿Ãû³Æ quartzDemo
- * @JAVAÂ·¾¶ com.quartz.example1.HelloQuartz
+ * @ä½œè€… å¼ æ¶›
+ * @åˆ›å»ºæ—¥æœŸ 2013-12-24
+ * @é¡¹ç›®åç§° quartzDemo
+ * @JAVAè·¯å¾„ com.quartz.example1.HelloQuartz
  */
 @PersistJobDataAfterExecution
 @DisallowConcurrentExecution
@@ -54,7 +52,7 @@ public class DumInterruptTableJob implements InterruptableJob {
 		}
 	}
    public void interrupt() throws UnableToInterruptJobException{
-	   log.info(this.jobkey+"--±»´ò¶Ï---");
+	   log.info(this.jobkey+"--è¢«æ‰“æ–­---");
        this.interrupt=true;	   
    }
 }

@@ -21,22 +21,19 @@ import org.slf4j.LoggerFactory;
 /**
  * <b> </b>
  * <p>
- * ¹¦ÄÜ:
+ * åŠŸèƒ½:
  * </p>
  * 
- * @×÷Õß ÕÅÌÎ
- * @´´½¨ÈÕÆÚ 2013-12-24
- * @ÏîÄ¿Ãû³Æ quartzDemo
- * @JAVAÂ·¾¶ com.quartz.example1.SimpleExample
+ * @ä½œè€… å¼ æ¶›
+ * @åˆ›å»ºæ—¥æœŸ 2013-12-24
+ * @é¡¹ç›®åç§° quartzDemo
+ * @JAVAè·¯å¾„ com.quartz.example1.SimpleExample
  */
 public class CalendarExample {
 	public static void run() throws Exception {
 		Logger log = LoggerFactory.getLogger(CalendarExample.class);
 		SchedulerFactory sf = new StdSchedulerFactory();
 		Scheduler sche = sf.getScheduler();
-
-		
-		// /////////////////////////////////////////////////////////////////
 		
 		AnnualCalendar holidays=new AnnualCalendar();
    
@@ -70,7 +67,6 @@ public class CalendarExample {
 		log.info(job.getKey() + " will run at: " + scheduleTime
 				+ " and repeat: " + trigger.getRepeatCount() + " times, every "
 				+ trigger.getRepeatInterval() / 1000L + " seconds");
-		/////////////////////////////////////////////////////////////////////
 
 		   sche.start();
 		 

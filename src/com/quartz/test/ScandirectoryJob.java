@@ -13,12 +13,12 @@ import org.quartz.JobExecutionException;
 /**
  * <b>  </b>
  * <p>
- *     ¹¦ÄÜ:
+ *     åŠŸèƒ½:
  * </p>
- * @×÷Õß  ÕÅÌÎ
- * @´´½¨ÈÕÆÚ 2013-12-24
- * @ÏîÄ¿Ãû³Æ quartzDemo
- * @JAVAÂ·¾¶ com.quartz.test.TestQuartz
+ * @ä½œè€…  å¼ æ¶›
+ * @åˆ›å»ºæ—¥æœŸ 2013-12-24
+ * @é¡¹ç›®åç§° quartzDemo
+ * @JAVAè·¯å¾„ com.quartz.test.TestQuartz
  */
 public class ScandirectoryJob implements Job{
 
@@ -46,9 +46,6 @@ public class ScandirectoryJob implements Job{
 			String 	msg=afile+"-size"+filelength;
 			System.out.println(msg);
 		}
-		 
-		 
-		 
 	}
 
 }

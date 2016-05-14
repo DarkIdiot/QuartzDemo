@@ -14,12 +14,12 @@ import org.slf4j.LoggerFactory;
 /**
  * <b>  </b>
  * <p>
- *     ¹¦ÄÜ:
+ *     åŠŸèƒ½:
  * </p>
- * @×÷Õß  ÕÅÌÎ
- * @´´½¨ÈÕÆÚ 2013-12-26
- * @ÏîÄ¿Ãû³Æ quartzDemo
- * @JAVAÂ·¾¶ com.quartz.example9.Job1Lisener
+ * @ä½œè€…  å¼ æ¶›
+ * @åˆ›å»ºæ—¥æœŸ 2013-12-26
+ * @é¡¹ç›®åç§° quartzDemo
+ * @JAVAè·¯å¾„ com.quartz.example9.Job1Lisener
  */
 public class Job1Lisener implements JobListener{
 	private static Logger log = LoggerFactory.getLogger(Job1Lisener.class);

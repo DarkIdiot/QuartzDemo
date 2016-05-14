@@ -14,12 +14,12 @@ import org.quartz.impl.triggers.SimpleTriggerImpl;
 /**
  * <b>  </b>
  * <p>
- *     ¹¦ÄÜ:
+ *     åŠŸèƒ½:
  * </p>
- * @×÷Õß  ÕÅÌÎ
- * @´´½¨ÈÕÆÚ 2013-12-24
- * @ÏîÄ¿Ãû³Æ quartzDemo
- * @JAVAÂ·¾¶ com.quartz.test.Simplescheduler
+ * @ä½œè€…  å¼ æ¶›
+ * @åˆ›å»ºæ—¥æœŸ 2013-12-24
+ * @é¡¹ç›®åç§° quartzDemo
+ * @JAVAè·¯å¾„ com.quartz.test.Simplescheduler
  */
 public class Simplescheduler {
 	public static void main(String[] args) {
@@ -47,6 +47,4 @@ public class Simplescheduler {
           Trigger trigger=new SimpleTriggerImpl("scanTrigger",4,new Long("2000"));
           scheduler.scheduleJob(jobDetail, trigger);
     }
-    
-    
 } 

@@ -1,13 +1,11 @@
 package com.quartz.example12;
 
 import org.quartz.CronScheduleBuilder;
-import org.quartz.DateBuilder;
 import org.quartz.JobBuilder;
 import org.quartz.JobDataMap;
 import org.quartz.JobDetail;
 import org.quartz.Scheduler;
 import org.quartz.SchedulerFactory;
-import org.quartz.SchedulerMetaData;
 import org.quartz.Trigger;
 import org.quartz.TriggerBuilder;
 import org.quartz.impl.StdSchedulerFactory;
@@ -17,13 +15,13 @@ import org.slf4j.LoggerFactory;
 /**
  * <b> </b>
  * <p>
- * ¹¦ÄÜ:
+ * åŠŸèƒ½:
  * </p>
  * 
- * @×÷Õß ÕÅÌÎ
- * @´´½¨ÈÕÆÚ 2013-12-24
- * @ÏîÄ¿Ãû³Æ quartzDemo
- * @JAVAÂ·¾¶ com.quartz.example1.SimpleExample
+ * @ä½œè€… å¼ æ¶›
+ * @åˆ›å»ºæ—¥æœŸ 2013-12-24
+ * @é¡¹ç›®åç§° quartzDemo
+ * @JAVAè·¯å¾„ com.quartz.example1.SimpleExample
  */
 public class RemoteClientExample {
 
@@ -32,8 +30,6 @@ public class RemoteClientExample {
 		SchedulerFactory sf = new StdSchedulerFactory();
 		Scheduler sche = sf.getScheduler();
 
-		// /////////////////////////////////////////////////////////////////
-		// ///////////////////////////////////////////////////////////////////
 		JobDetail job = JobBuilder.newJob(SimpleJob.class)
 				.withIdentity("remotelyAddedjob", "group1").build();
 

@@ -2,8 +2,6 @@ package com.quartz.example4;
 
 import java.util.Date;
 
-import org.quartz.CronScheduleBuilder;
-import org.quartz.CronTrigger;
 import org.quartz.DateBuilder;
 import org.quartz.JobBuilder;
 import org.quartz.JobDetail;
@@ -19,13 +17,13 @@ import org.slf4j.LoggerFactory;
 /**
  * <b> </b>
  * <p>
- * ¹¦ÄÜ:
+ * åŠŸèƒ½:
  * </p>
  * 
- * @×÷Õß ÕÅÌÎ
- * @´´½¨ÈÕÆÚ 2013-12-24
- * @ÏîÄ¿Ãû³Æ quartzDemo
- * @JAVAÂ·¾¶ com.quartz.example1.SimpleExample
+ * @ä½œè€… å¼ æ¶›
+ * @åˆ›å»ºæ—¥æœŸ 2013-12-24
+ * @é¡¹ç›®åç§° quartzDemo
+ * @JAVAè·¯å¾„ com.quartz.example1.SimpleExample
  */
 public class JobStateExample {
 	public static void run() throws Exception {
@@ -34,7 +32,6 @@ public class JobStateExample {
 		Scheduler sche = sf.getScheduler();
 
 		Date runtime = DateBuilder.nextGivenSecondDate(null, 10);
-///////////////////////////////////////////////////////////////////
 		JobDetail job = JobBuilder.newJob(ColorJob.class)
 				.withIdentity("job1", "group1").build();
 
@@ -53,7 +50,6 @@ public class JobStateExample {
 		log.info(job.getKey() + " will run at: " + scheduleTime
 				+ " and repeat: " + trigger.getRepeatCount() + " times, every "
 				+ trigger.getRepeatInterval() / 1000L + " seconds");
-////////////////////////////////////////////////////////////////////
 		JobDetail job1 = JobBuilder.newJob(ColorJob.class)
 				.withIdentity("job2", "group1").build();
 

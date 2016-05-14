@@ -1,9 +1,9 @@
 package com.quartz.example13;
 
 import java.util.Date;
+
 import org.quartz.Job;
 import org.quartz.JobDataMap;
-import org.quartz.JobDetail;
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
 import org.quartz.JobKey;
